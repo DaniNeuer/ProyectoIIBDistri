@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Mvc;
+using System.Data.Entity;
+using ProyectoIIBDistri.DAL;
+using ProyectoIIBDistri.Models;
+using System.Web.Http;
+
 
 namespace ProyectoIIBDistri.Controllers
 {
-    public class TicketController : Controller
+    public class TicketController : ApiController
     {
-        // GET: Ticket
-        public ActionResult Index()
-        {
-            return View();
-        }
+        
     }
 }
