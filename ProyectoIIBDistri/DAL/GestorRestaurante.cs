@@ -11,9 +11,10 @@ namespace ProyectoIIBDistri.DAL
 {
     public class GestorRestaurante : DbContext
     {
-        public DbSet<Usuario> Rocas { get; set; }
-        public DbSet<Ticket> Fosiles { get; set; }
+        
         public DbSet<HistorialTicket> HistorialTickets { get; set; }
         public DbSet<Comida> Comidas { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Ticket> Ticketes { get; set; }
     }
 }
